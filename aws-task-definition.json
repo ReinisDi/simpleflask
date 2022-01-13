@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::<<account_id>>:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::059732312124:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "<<account_id>>.dkr.ecr.us-east-1.amazonaws.com/aws-ecs-demo-ecr",
+      "image": "059732312124.dkr.ecr.eu-central-1.amazonaws.com/git-ecs-repo:7058bf11aaf8cfd8323df1187cb0655cd03f4304",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,17 +46,18 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "aws-ecs-demo-ecr"
+      "name": "git-ecs-repo"
     }
   ],
   "placementConstraints": [],
   "memory": null,
-  "taskRoleArn": "arn:aws:iam::<<account_id>>:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::059732312124:role/ecsTaskExecutionRole",
   "compatibilities": [
+    "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:<<account_id>>:task-definition/aws-ecs-demo-task-definition:1",
-  "family": "aws-ecs-demo-task-definition",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:059732312124:task-definition/git-ecs-task-def:4",
+  "family": "git-ecs-task-def",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -88,8 +89,9 @@
     "EC2"
   ],
   "networkMode": null,
+  "runtimePlatform": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 4,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
