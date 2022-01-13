@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "059732312124.dkr.ecr.eu-central-1.amazonaws.com/git-ecs-repo:7058bf11aaf8cfd8323df1187cb0655cd03f4304",
+      "image": "059732312124.dkr.ecr.eu-central-1.amazonaws.com/git-ecs-repo:17dc2d8589064cb6ada3b108805c98a02f4d4cc1",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -56,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:059732312124:task-definition/git-ecs-task-def:4",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:059732312124:task-definition/git-ecs-task-def:5",
   "family": "git-ecs-task-def",
   "requiresAttributes": [
     {
@@ -91,7 +91,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 4,
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
